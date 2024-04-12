@@ -4,7 +4,8 @@ import datetime
 
 st.title('Test timeout')
 
-st.write('This is a test to see if the app times out after 20 minutes.')
+st.write('This is a test to see if the app times out after 30 minutes.')
+st.write('When deployed on streamlit, the app will pop up a message "Tried to use SessionInfo before it was initialized." after 30 minutes.')
 
 txt = st.text('')
 
